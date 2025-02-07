@@ -64,7 +64,7 @@ for(let t of btn){
         }
         
         
-        if(userScore >= 10){
+        if(userScore >= 5){
             alert(`      !!You Won!!\n User: ${userScore} \n Computer: ${computerScore}`)
             userScore_span.innerText = 0;  // score value 0 for restart the game
             computerScore_span.innerText = 0;
@@ -75,7 +75,7 @@ for(let t of btn){
             vs.style.color = 'black'
             final.innerText = ''
         } 
-        else if(computerScore >= 10){
+        else if(computerScore >= 5){
             alert(`      !!You Won!!\n User: ${userScore} \n Computer: ${computerScore}`)
             computerScore_span.innerText = 0; // score value 0 for restart the game
             userScore_span.innerText = 0; 
