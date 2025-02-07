@@ -76,7 +76,7 @@ for(let t of btn){
             final.innerText = ''
         } 
         else if(computerScore >= 5){
-            alert(`      !!You Won!!\n User: ${userScore} \n Computer: ${computerScore}`)
+            alert(`      !!You Lose!!\n User: ${userScore} \n Computer: ${computerScore}`)
             computerScore_span.innerText = 0; // score value 0 for restart the game
             userScore_span.innerText = 0; 
             userScore = 0  // score value 0 for restart the game logically
